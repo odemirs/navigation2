@@ -1,0 +1,5 @@
+nav2_add_gtest(test_navigate_through_poses_goal_update test_navigate_through_poses_goal_update.cpp)
+target_link_libraries(test_navigate_through_poses_goal_update
+  ${library_name}
+  nav2_behavior_tree::nav2_navigate_through_poses_action_bt_node
+)
